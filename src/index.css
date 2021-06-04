@@ -1,13 +1,44 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.negative-transform {
+    transform: translateY(-20px)
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.Clear {
+  background: url(./img/sunny.jpeg) no-repeat center center;
+  background-size: cover;
 }
+
+.Clouds {
+  background: url(./img/cloudy.jpeg) no-repeat center center;
+  background-size: cover;
+}
+
+.Rain {
+  background: url(./img/rain.jpeg) no-repeat center center;
+  background-size: cover;
+}
+
+.Snow {
+  background: url(./img/snow.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.Drizzle {
+  background: url(./img/driz.jpeg) no-repeat center center;
+  background-size: cover;
+}
+
+.Thunderstorm {
+  background: url(./img/thunder.jpeg) no-repeat center center;
+  background-size: cover;
+}
+
+.Mist {
+  background: url(./img/mist.jpeg) no-repeat center center;
+  background-size: cover;
+}
+
+
